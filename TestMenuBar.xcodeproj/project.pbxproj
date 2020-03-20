@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09EF99E2242588E2007A4AEB /* MenuBarButtonDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EF99E1242588E2007A4AEB /* MenuBarButtonDark.png */; };
 		FCC6C4D819A58C7A0063EC3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6C4D719A58C7A0063EC3C /* main.swift */; };
 		FCC6C4DC19A58C7A0063EC3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6C4DB19A58C7A0063EC3C /* AppDelegate.swift */; };
 		FCC6C4DE19A58C7A0063EC3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC6C4DD19A58C7A0063EC3C /* Images.xcassets */; };
@@ -15,13 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09EF99E1242588E2007A4AEB /* MenuBarButtonDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButtonDark.png; path = /Users/Spencer/Documents/github/TestMenuBar/TestMenuBar/MenuBarButtonDark.png; sourceTree = "<absolute>"; };
 		FCC6C4D219A58C7A0063EC3C /* TestMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6C4D619A58C7A0063EC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC6C4D719A58C7A0063EC3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FCC6C4DB19A58C7A0063EC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC6C4DD19A58C7A0063EC3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCC6C4E019A58C7A0063EC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCC6C4F619A58D370063EC3C /* MenuBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MenuBarButton.png; sourceTree = "<group>"; };
+		FCC6C4F619A58D370063EC3C /* MenuBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButton.png; path = /Users/Spencer/Documents/github/TestMenuBar/TestMenuBar/MenuBarButton.png; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		FCC6C4D519A58C7A0063EC3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09EF99E1242588E2007A4AEB /* MenuBarButtonDark.png */,
 				FCC6C4F619A58D370063EC3C /* MenuBarButton.png */,
 				FCC6C4D619A58C7A0063EC3C /* Info.plist */,
 				FCC6C4D719A58C7A0063EC3C /* main.swift */,
@@ -112,6 +115,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -130,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09EF99E2242588E2007A4AEB /* MenuBarButtonDark.png in Resources */,
 				FCC6C4DE19A58C7A0063EC3C /* Images.xcassets in Resources */,
 				FCC6C4E119A58C7A0063EC3C /* Main.storyboard in Resources */,
 				FCC6C4F719A58D370063EC3C /* MenuBarButton.png in Resources */,

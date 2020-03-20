@@ -42,7 +42,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             return
         }
         
-        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
+        let appearance = UserDefaults.standard.string(forKey:"AppleInterfaceStyle") ?? "Light"
+        print(appearance);
+        if (appearance == "Dark") {
+            button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButtonDark"))
+        } else {
+            button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
+        }
+        
+        DistributedNotificationCenter.default().addObserver(
+            self,
+            selector: #selector(self.themeChangedNotification(notification:)),
+            name: NSNotification.Name(rawValue: "AppleInterfaceThemeChangedNotification"),
+            object: nil
+        )
+        @objc func themeChangedNotification(notification: Notification) {
+            //Theme Changed
+        }
+        
+//        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
         button.target = self
         button.action = #selector(displayMenu)
     }

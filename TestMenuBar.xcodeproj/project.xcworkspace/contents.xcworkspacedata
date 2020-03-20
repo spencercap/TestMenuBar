@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestMenuBar.xcodeproj">
+      location = "group:/Users/Spencer/Documents/github/TestMenuBar/TestMenuBar/MenuBarButtonDark.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
