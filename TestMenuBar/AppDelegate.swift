@@ -50,15 +50,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
         }
         
-        DistributedNotificationCenter.default().addObserver(
-            self,
-            selector: #selector(self.themeChangedNotification(notification:)),
-            name: NSNotification.Name(rawValue: "AppleInterfaceThemeChangedNotification"),
-            object: nil
-        )
-        @objc func themeChangedNotification(notification: Notification) {
-            //Theme Changed
-        }
         
 //        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
         button.target = self
