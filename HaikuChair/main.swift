@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  TestMenuBar
+//  HaikuChair
 //
 //  Created by Kelvin Ng on 21/8/14.
 //  Copyright (c) 2014 Kelvin Ng. All rights reserved.

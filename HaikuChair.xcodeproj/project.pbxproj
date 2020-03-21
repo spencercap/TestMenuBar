@@ -16,14 +16,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09EF99E1242588E2007A4AEB /* MenuBarButtonDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButtonDark.png; path = /Users/Spencer/Documents/github/TestMenuBar/TestMenuBar/MenuBarButtonDark.png; sourceTree = "<absolute>"; };
-		FCC6C4D219A58C7A0063EC3C /* TestMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EF99E1242588E2007A4AEB /* MenuBarButtonDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButtonDark.png; path = HaikuChair/MenuBarButtonDark.png; sourceTree = SOURCE_ROOT; };
+		FCC6C4D219A58C7A0063EC3C /* HaikuChair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaikuChair.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6C4D619A58C7A0063EC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCC6C4D719A58C7A0063EC3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FCC6C4DB19A58C7A0063EC3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC6C4DD19A58C7A0063EC3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FCC6C4E019A58C7A0063EC3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FCC6C4F619A58D370063EC3C /* MenuBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButton.png; path = /Users/Spencer/Documents/github/TestMenuBar/TestMenuBar/MenuBarButton.png; sourceTree = "<absolute>"; };
+		FCC6C4F619A58D370063EC3C /* MenuBarButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MenuBarButton.png; path = HaikuChair/MenuBarButton.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		FCC6C4C919A58C7A0063EC3C = {
 			isa = PBXGroup;
 			children = (
-				FCC6C4D419A58C7A0063EC3C /* TestMenuBar */,
+				FCC6C4D419A58C7A0063EC3C /* HaikuChair */,
 				FCC6C4D319A58C7A0063EC3C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		FCC6C4D319A58C7A0063EC3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCC6C4D219A58C7A0063EC3C /* TestMenuBar.app */,
+				FCC6C4D219A58C7A0063EC3C /* HaikuChair.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCC6C4D419A58C7A0063EC3C /* TestMenuBar */ = {
+		FCC6C4D419A58C7A0063EC3C /* HaikuChair */ = {
 			isa = PBXGroup;
 			children = (
 				FCC6C4DB19A58C7A0063EC3C /* AppDelegate.swift */,
@@ -61,7 +61,7 @@
 				FCC6C4DF19A58C7A0063EC3C /* Main.storyboard */,
 				FCC6C4D519A58C7A0063EC3C /* Supporting Files */,
 			);
-			path = TestMenuBar;
+			path = HaikuChair;
 			sourceTree = "<group>";
 		};
 		FCC6C4D519A58C7A0063EC3C /* Supporting Files */ = {
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCC6C4D119A58C7A0063EC3C /* TestMenuBar */ = {
+		FCC6C4D119A58C7A0063EC3C /* HaikuChair */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC6C4F019A58C7A0063EC3C /* Build configuration list for PBXNativeTarget "TestMenuBar" */;
+			buildConfigurationList = FCC6C4F019A58C7A0063EC3C /* Build configuration list for PBXNativeTarget "HaikuChair" */;
 			buildPhases = (
 				FCC6C4CE19A58C7A0063EC3C /* Sources */,
 				FCC6C4CF19A58C7A0063EC3C /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = TestMenuBar;
-			productName = TestMenuBar;
-			productReference = FCC6C4D219A58C7A0063EC3C /* TestMenuBar.app */;
+			name = HaikuChair;
+			productName = HaikuChair;
+			productReference = FCC6C4D219A58C7A0063EC3C /* HaikuChair.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FCC6C4CD19A58C7A0063EC3C /* Build configuration list for PBXProject "TestMenuBar" */;
+			buildConfigurationList = FCC6C4CD19A58C7A0063EC3C /* Build configuration list for PBXProject "HaikuChair" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCC6C4D119A58C7A0063EC3C /* TestMenuBar */,
+				FCC6C4D119A58C7A0063EC3C /* HaikuChair */,
 			);
 		};
 /* End PBXProject section */
@@ -269,9 +269,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TestMenuBar/Info.plist;
+				INFOPLIST_FILE = HaikuChair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = your.domain.TestMenuBar;
+				PRODUCT_BUNDLE_IDENTIFIER = your.domain.HaikuChair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -283,9 +283,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TestMenuBar/Info.plist;
+				INFOPLIST_FILE = HaikuChair/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = your.domain.TestMenuBar;
+				PRODUCT_BUNDLE_IDENTIFIER = your.domain.HaikuChair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -295,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCC6C4CD19A58C7A0063EC3C /* Build configuration list for PBXProject "TestMenuBar" */ = {
+		FCC6C4CD19A58C7A0063EC3C /* Build configuration list for PBXProject "HaikuChair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC6C4EE19A58C7A0063EC3C /* Debug */,
@@ -304,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC6C4F019A58C7A0063EC3C /* Build configuration list for PBXNativeTarget "TestMenuBar" */ = {
+		FCC6C4F019A58C7A0063EC3C /* Build configuration list for PBXNativeTarget "HaikuChair" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC6C4F119A58C7A0063EC3C /* Debug */,
