@@ -8,7 +8,19 @@
 
 import Cocoa
 
+private let kAppleInterfaceThemeChangedNotification = "AppleInterfaceThemeChangedNotification"
+private let kAppleInterfaceStyle = "AppleInterfaceStyle"
+private let kAppleInterfaceStyleSwitchesAutomatically = "AppleInterfaceStyleSwitchesAutomatically"
+
+enum OSAppearance: Int {
+    case light
+    case dark
+}
+
+//@NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    var osAppearance: OSAppearance = .light
     
     //strong reference to retain the status bar item object
 	var statusItem: NSStatusItem?
@@ -42,18 +54,63 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             return
         }
         
-        let appearance = UserDefaults.standard.string(forKey:"AppleInterfaceStyle") ?? "Light"
-        print(appearance);
-        if (appearance == "Dark") {
-            button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButtonDark"))
-        } else {
-            button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
-        }
-        
-        
-//        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
+        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
         button.target = self
         button.action = #selector(displayMenu)
+        
+        
+        // menubar icon appearance change listener
+        DistributedNotificationCenter.default().addObserver(
+            self,
+            selector: #selector(self.appleInterfaceThemeChangedNotification(notification:)),
+            name: NSNotification.Name(rawValue: kAppleInterfaceThemeChangedNotification),
+            object: nil
+        )
+        
+        // init menubar icon appearance
+        getAppearance()
+
+    }
+    
+    @objc func appleInterfaceThemeChangedNotification(notification: Notification) {
+        getAppearance()
+    }
+    
+    func getAppearance() {
+        self.osAppearance = .light
+        if #available(OSX 10.15, *) {
+            let appearanceDescription = NSApplication.shared.effectiveAppearance.debugDescription.lowercased()
+            if appearanceDescription.contains("dark") {
+                self.osAppearance = .dark
+            }
+        } else if #available(OSX 10.14, *) {
+            if let appleInterfaceStyle = UserDefaults.standard.object(forKey: kAppleInterfaceStyle) as? String {
+                if appleInterfaceStyle.lowercased().contains("dark") {
+                    self.osAppearance = .dark
+                }
+            }
+        }
+        updateAppearance()
+    }
+    
+    func updateAppearance() {
+        
+        guard let button = statusItem?.button else {
+            print("status bar item failed. Try removing some menu bar item.")
+            NSApp.terminate(nil)
+            return
+        }
+        
+        DispatchQueue.main.async {
+            switch self.osAppearance {
+            case .light:
+                print("is now Light");
+                button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
+            case .dark:
+                print("is now Dark");
+                button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButtonDark"))
+            }
+        }
     }
 	
 }
