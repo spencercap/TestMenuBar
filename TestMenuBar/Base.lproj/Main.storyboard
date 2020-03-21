@@ -15,7 +15,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="TestMenuBar" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Haikuster vol 1" id="5kV-Vb-QxS">
+                                        <menuItem title="✒️🗒 Haikü vol. 1" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -34,11 +34,81 @@
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
-                                            </connections>
+                                        <menuItem title="Find" id="gXa-l3-JZ3">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Find" id="A3T-Q4-7ku">
+                                                <items>
+                                                    <menuItem title="Find…" tag="1" keyEquivalent="f" id="4JS-N4-MJh">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="O3p-Bh-wfc"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Find and Replace…" tag="12" keyEquivalent="f" id="PGD-0D-Qk6">
+                                                        <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="tCD-eO-yjz"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Find Next" tag="2" keyEquivalent="g" id="5H2-Wc-yOW">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="UIB-j4-kdg"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="50c-2A-WoM">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="WCX-b2-qdn"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="t0s-GE-525">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="W0m-O1-pJJ"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Jump to Selection" keyEquivalent="j" id="tKe-b0-oGA">
+                                                        <connections>
+                                                            <action selector="centerSelectionInVisibleArea:" target="Ady-hI-5gd" id="IKt-pu-Wmf"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Find" id="bue-C4-nx7">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <menu key="submenu" title="Find" id="c02-eC-xmB">
+                                                            <items>
+                                                                <menuItem title="Line" tag="1" keyEquivalent="f" id="Grs-tx-JHE">
+                                                                    <connections>
+                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="tmX-5u-ghz"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                                <menuItem title="Line" tag="12" keyEquivalent="f" id="GUk-P9-MCK">
+                                                                    <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                                                    <connections>
+                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="rJ0-gg-OzE"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                                <menuItem title="Find Next" tag="2" keyEquivalent="g" id="hEc-on-1jC">
+                                                                    <connections>
+                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="SGx-AS-OJg"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                                <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="FWp-J2-iqp">
+                                                                    <connections>
+                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="CYb-om-8Kq"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                                <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="RAR-8l-5jf">
+                                                                    <connections>
+                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="4YS-qN-Igf"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                                <menuItem title="Jump to Selection" keyEquivalent="j" id="pYP-1p-4ig">
+                                                                    <connections>
+                                                                        <action selector="centerSelectionInVisibleArea:" target="Ady-hI-5gd" id="qvn-gW-Hxl"/>
+                                                                    </connections>
+                                                                </menuItem>
+                                                            </items>
+                                                        </menu>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
                                         </menuItem>
                                         <menuItem title="Show All" id="Kd2-mp-pUS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
