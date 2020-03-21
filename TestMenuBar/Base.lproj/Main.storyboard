@@ -15,11 +15,14 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Haiku Chair" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="~ Haiku Chair vol. 1 ~" id="5kV-Vb-QxS">
+                                        <menuItem title="~ Haiku Chair ~" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
                                             </connections>
+                                        </menuItem>
+                                        <menuItem title="   vol. 1" enabled="NO" id="07V-Gw-TFZ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
                                         <menuItem title="About" keyEquivalent="," id="BOF-NM-1cW"/>
@@ -28,132 +31,402 @@
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <menu key="submenu" title="lonely blue" id="A3T-Q4-7ku">
                                                 <items>
-                                                    <menuItem title="His tender instincts -" tag="1" keyEquivalent="f" id="4JS-N4-MJh">
-                                                        <connections>
-                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="O3p-Bh-wfc"/>
-                                                        </connections>
-                                                    </menuItem>
-                                                    <menuItem title="Little moments forgotten" tag="12" keyEquivalent="f" id="PGD-0D-Qk6">
-                                                        <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                                        <connections>
-                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="tCD-eO-yjz"/>
-                                                        </connections>
-                                                    </menuItem>
-                                                    <menuItem title="And immortalized" tag="2" keyEquivalent="g" id="5H2-Wc-yOW">
-                                                        <connections>
-                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="UIB-j4-kdg"/>
-                                                        </connections>
-                                                    </menuItem>
-                                                    <menuItem title="Find" id="bue-C4-nx7">
+                                                    <menuItem title="His tender instincts -" id="VzZ-8E-abI">
                                                         <modifierMask key="keyEquivalentModifierMask"/>
-                                                        <menu key="submenu" title="Find" id="c02-eC-xmB">
+                                                        <menu key="submenu" title="His tender instincts -" id="Q4Z-pS-rRx">
                                                             <items>
-                                                                <menuItem title="Line" tag="1" keyEquivalent="f" id="Grs-tx-JHE">
-                                                                    <connections>
-                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="tmX-5u-ghz"/>
-                                                                    </connections>
-                                                                </menuItem>
-                                                                <menuItem title="Line" tag="12" keyEquivalent="f" id="GUk-P9-MCK">
-                                                                    <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                                                    <connections>
-                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="rJ0-gg-OzE"/>
-                                                                    </connections>
-                                                                </menuItem>
-                                                                <menuItem title="Find" id="NpR-pr-RNX">
+                                                                <menuItem title="Little moments forgotten" id="5fU-y2-MlB">
                                                                     <modifierMask key="keyEquivalentModifierMask"/>
-                                                                    <menu key="submenu" title="Find" id="wKw-o4-2XK">
+                                                                    <menu key="submenu" title="Little moments forgotten" id="dJo-ZP-C0t">
                                                                         <items>
-                                                                            <menuItem title="Line" tag="1" keyEquivalent="f" id="tNd-wc-YWN">
-                                                                                <connections>
-                                                                                    <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="Sza-WN-SPd"/>
-                                                                                </connections>
-                                                                            </menuItem>
-                                                                            <menuItem title="Line" tag="12" keyEquivalent="f" id="dEH-Hv-Uib">
-                                                                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                                                                <connections>
-                                                                                    <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="3i8-yD-ybr"/>
-                                                                                </connections>
-                                                                            </menuItem>
-                                                                            <menuItem title="Find" id="WAO-eV-bxo">
+                                                                            <menuItem title="And immortalized" id="aYx-nj-jTE">
                                                                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                                                                <menu key="submenu" title="Find" id="ArQ-Hi-qaJ">
+                                                                                <menu key="submenu" title="And immortalized" id="XOk-Mk-Zkv">
                                                                                     <items>
-                                                                                        <menuItem title="Line" tag="1" keyEquivalent="f" id="4kv-Rq-jpP">
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="e5y-xb-gIx">
                                                                                             <connections>
-                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="0CU-aF-i1R"/>
-                                                                                            </connections>
-                                                                                        </menuItem>
-                                                                                        <menuItem title="Line" tag="12" keyEquivalent="f" id="urX-eg-KXU">
-                                                                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                                                                            <connections>
-                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="Aar-1p-xUk"/>
-                                                                                            </connections>
-                                                                                        </menuItem>
-                                                                                        <menuItem title="Find Next" tag="2" keyEquivalent="g" id="UhC-zC-daJ">
-                                                                                            <connections>
-                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="ObU-LD-6IU"/>
-                                                                                            </connections>
-                                                                                        </menuItem>
-                                                                                        <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="n7n-Nd-0wz">
-                                                                                            <connections>
-                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="SFc-Te-lQ6"/>
-                                                                                            </connections>
-                                                                                        </menuItem>
-                                                                                        <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="yEs-pe-x4P">
-                                                                                            <connections>
-                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="BsY-28-2aj"/>
-                                                                                            </connections>
-                                                                                        </menuItem>
-                                                                                        <menuItem title="Jump to Selection" keyEquivalent="j" id="5SJ-Mj-iVc">
-                                                                                            <connections>
-                                                                                                <action selector="centerSelectionInVisibleArea:" target="Ady-hI-5gd" id="a61-nV-kw5"/>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="Pv2-nR-Urf"/>
                                                                                             </connections>
                                                                                         </menuItem>
                                                                                     </items>
                                                                                 </menu>
                                                                             </menuItem>
-                                                                            <menuItem title="Find Next" tag="2" keyEquivalent="g" id="O9Q-iZ-Gow">
-                                                                                <connections>
-                                                                                    <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="gwC-6y-zBP"/>
-                                                                                </connections>
+                                                                            <menuItem title="And immortalized" id="8uO-rM-9VS">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="hFU-Mg-5Wq">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="HDI-ei-oFi">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="x3l-Yo-UYW"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
                                                                             </menuItem>
-                                                                            <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="q5Z-RS-bYI">
-                                                                                <connections>
-                                                                                    <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="pJg-kH-RkL"/>
-                                                                                </connections>
+                                                                            <menuItem title="And immortalized" id="KKA-vH-dUF">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="Ee8-D3-NU3">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="3fn-o7-yip">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="Hjf-dn-Syc"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
                                                                             </menuItem>
-                                                                            <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="A8x-VC-Gkw">
-                                                                                <connections>
-                                                                                    <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="wn5-tt-lOq"/>
-                                                                                </connections>
-                                                                            </menuItem>
-                                                                            <menuItem title="Jump to Selection" keyEquivalent="j" id="ZpM-gt-ccb">
-                                                                                <connections>
-                                                                                    <action selector="centerSelectionInVisibleArea:" target="Ady-hI-5gd" id="bci-Zw-EOV"/>
-                                                                                </connections>
+                                                                            <menuItem title="And immortalized" id="ZPj-8o-jqU">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="jX1-Tf-R2O">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="sk1-x8-BFA">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="mhx-OD-y9F"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
                                                                             </menuItem>
                                                                         </items>
                                                                     </menu>
                                                                 </menuItem>
-                                                                <menuItem title="Find Next" tag="2" keyEquivalent="g" id="hEc-on-1jC">
-                                                                    <connections>
-                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="SGx-AS-OJg"/>
-                                                                    </connections>
+                                                                <menuItem title="Little moments forgotten" id="CE9-nb-7Rc">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="gSP-eb-Ogk">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="B8T-L9-NAA">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="7Jr-7q-fnK">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="z8S-ER-UnJ">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="x3i-dL-PmO"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="2Ai-0v-3GY">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="b0L-M8-vfZ">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="hLV-oP-cCL">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="QFZ-hJ-Lkc"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="S1u-AG-fYi">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="QSW-tn-7qh">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="Q1u-dw-tYA">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="4g1-FL-Cok"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="G2L-Hh-66K">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="vOR-dR-OUb">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="tJs-70-vdV">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="cxs-xy-hJB"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
                                                                 </menuItem>
-                                                                <menuItem title="Find Previous" tag="3" keyEquivalent="G" id="FWp-J2-iqp">
-                                                                    <connections>
-                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="CYb-om-8Kq"/>
-                                                                    </connections>
+                                                            </items>
+                                                        </menu>
+                                                    </menuItem>
+                                                    <menuItem title="His tender instincts -" id="day-mF-6K4">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <menu key="submenu" title="His tender instincts -" id="2em-OH-vUm">
+                                                            <items>
+                                                                <menuItem title="Little moments forgotten" id="mdC-nB-OqU">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="gdh-uA-jsm">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="auV-Iz-4s5">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="rrd-Lm-wqS">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="rwq-BT-SkF">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="fPE-JG-Jbr"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="G2q-dX-GMN">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="UG4-ys-8Pr">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="cqP-CI-aIZ">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="wAO-U7-z3f"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="AUf-wd-8V0">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="Tar-Au-dZk">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="ayt-34-b8N">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="5FS-Xe-djy"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="BIG-UF-cD8">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="Vml-g2-VD4">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="6xb-mk-At4">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="vag-eh-kfI"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
                                                                 </menuItem>
-                                                                <menuItem title="Use Selection for Find" tag="7" keyEquivalent="e" id="RAR-8l-5jf">
-                                                                    <connections>
-                                                                        <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="4YS-qN-Igf"/>
-                                                                    </connections>
+                                                                <menuItem title="Little moments forgotten" id="lwv-Ye-nOf">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="MMC-c2-Jxg">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="M7C-Os-4Wr">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="1Vu-EA-OIM">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="LQD-Tz-Lef">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="MJR-Oo-8Jn"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="rvL-6g-ilc">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="FJD-fJ-YNd">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="aIX-FW-7Dy">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="Wga-ES-68Q"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="6Ud-pz-x3f">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="tQa-of-a6U">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="C0r-vc-Znw">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="r0i-rm-S7D"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="N6A-ly-poj">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="dRE-EV-2Eb">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="qQY-0E-9nk">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="m7n-tu-cdA"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
                                                                 </menuItem>
-                                                                <menuItem title="Jump to Selection" keyEquivalent="j" id="pYP-1p-4ig">
-                                                                    <connections>
-                                                                        <action selector="centerSelectionInVisibleArea:" target="Ady-hI-5gd" id="qvn-gW-Hxl"/>
-                                                                    </connections>
+                                                            </items>
+                                                        </menu>
+                                                    </menuItem>
+                                                    <menuItem title="His tender instincts -" id="xyT-dz-kwQ">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <menu key="submenu" title="His tender instincts -" id="KGq-p4-xmQ">
+                                                            <items>
+                                                                <menuItem title="Little moments forgotten" id="yU2-XK-bia">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="ic7-vY-EQS">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="ZHx-Sy-aRP">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="dsL-O4-Mph">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="eGP-eV-uZz">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="9Vw-gx-hUb"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="nN5-YW-jCl">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="E21-lt-foF">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="VIv-lp-Hhy">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="nUp-8f-ZBz"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="5j8-JX-b3c">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="dxm-PQ-wSB">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="ce6-cJ-1v6">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="9cQ-lL-Lj1"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="3WD-Z0-WIN">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="GsP-Ix-8wM">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="8YY-ze-7BW">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="bvV-bV-ocr"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
+                                                                </menuItem>
+                                                                <menuItem title="Little moments forgotten" id="ow0-hV-aoa">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="Mt2-OA-cEw">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="FQ8-OA-ZIz">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="nET-0u-ifH">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="gmM-ak-37u">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="kqF-MF-J0y"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="wNo-0Q-RaY">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="FX9-v3-GFM">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="FSb-UY-pRW">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="ewi-9y-qeO"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="ISI-jV-uk2">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="Iti-Cn-Gm7">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="UIB-YO-xo8">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="UmR-Ya-08A"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                            <menuItem title="And immortalized" id="HaC-eE-YFt">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="ujX-8s-86L">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="sJW-j4-Q3C">
+                                                                                            <connections>
+                                                                                                <action selector="openHaikuGirl:" target="Voe-Tx-rLC" id="hWv-4f-aam"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
+                                                                </menuItem>
+                                                            </items>
+                                                        </menu>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="lonely blue [2]" id="hOI-de-jJM">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="lonely blue [2]" id="8Za-yc-mL8">
+                                                <items>
+                                                    <menuItem title="His tender instincts -" tag="1" keyEquivalent="f" id="gAG-iP-w92">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="RcQ-Bb-1K4"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Little moments forgotten" tag="12" keyEquivalent="f" id="8D0-Cw-KSf">
+                                                        <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="BcU-iq-FIg"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="And immortalized" tag="2" keyEquivalent="g" id="bvd-FK-KEw">
+                                                        <connections>
+                                                            <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="RKH-SU-8ey"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="His tender instincts -" id="YPe-V8-6Jf">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <menu key="submenu" title="His tender instincts -" id="QAp-dP-5XY">
+                                                            <items>
+                                                                <menuItem title="Little moments forgotten" id="dT1-DP-W79">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                    <menu key="submenu" title="Little moments forgotten" id="YbR-gk-CN5">
+                                                                        <items>
+                                                                            <menuItem title="And immortalized" id="zKD-6d-0qe">
+                                                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                                                                <menu key="submenu" title="And immortalized" id="VXF-kZ-7Ds">
+                                                                                    <items>
+                                                                                        <menuItem title="haiku_girl" tag="1" keyEquivalent="g" id="Gew-lN-MYc">
+                                                                                            <connections>
+                                                                                                <action selector="performFindPanelAction:" target="Ady-hI-5gd" id="Zq2-xs-R4S"/>
+                                                                                            </connections>
+                                                                                        </menuItem>
+                                                                                    </items>
+                                                                                </menu>
+                                                                            </menuItem>
+                                                                        </items>
+                                                                    </menu>
                                                                 </menuItem>
                                                             </items>
                                                         </menu>

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TestMenuBar
+//  Haiku Chair
 //
-//  Created by Kelvin Ng on 21/8/14.
-//  Copyright (c) 2014 Kelvin Ng. All rights reserved.
+//  Created by Spencer Cappiello on 03/21/20
+//  Copyright (c) 2020 Spencer Cappiello. All rights reserved.
 //
 
 import Cocoa
@@ -46,29 +46,50 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 	
 	func applicationDidFinishLaunching(_ aNotification: Notification) {
-        statusItem = NSStatusBar.system.statusItem(withLength: -1)
+
         
+    
+        
+        /* statusItem icon as string / emoji */
+        statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
+        statusItem?.button?.title = "💭" //ops: ✨ 🔮
+
+        
+//        /* statusItem icon as PNG */
+//        statusItem = NSStatusBar.system.statusItem(withLength: -1)
+//
         guard let button = statusItem?.button else {
             print("status bar item failed. Try removing some menu bar item.")
             NSApp.terminate(nil)
             return
         }
-        
-        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
+//        button.image = NSImage(named: NSImage.Name(rawValue: "MenuBarButton"))
         button.target = self
         button.action = #selector(displayMenu)
         
+//
+//
+//        /* menubar icon appearance change listener */
+//        DistributedNotificationCenter.default().addObserver(
+//            self,
+//            selector: #selector(self.appleInterfaceThemeChangedNotification(notification:)),
+//            name: NSNotification.Name(rawValue: kAppleInterfaceThemeChangedNotification),
+//            object: nil
+//        )
+//
+//        /* init menubar icon appearance */
+//        getAppearance()
         
-        // menubar icon appearance change listener
-        DistributedNotificationCenter.default().addObserver(
-            self,
-            selector: #selector(self.appleInterfaceThemeChangedNotification(notification:)),
-            name: NSNotification.Name(rawValue: kAppleInterfaceThemeChangedNotification),
-            object: nil
-        )
         
-        // init menubar icon appearance
-        getAppearance()
+          /* statusItem icon as custom view */
+//        let DEFAULT_W = 28
+//        let DEFAULT_H = 22
+//        let txt = NSTextField(frame: NSMakeRect(0, 0, CGFloat(DEFAULT_W), CGFloat(DEFAULT_H)))
+//        txt.stringValue = "🙃"
+//        let mStatusBackgroundView = NSView(frame: NSMakeRect(0, 0, CGFloat(DEFAULT_W), CGFloat(DEFAULT_H)))
+//        mStatusBackgroundView.addSubview(txt)
+//        statusItem = NSStatusBar.system.statusItem(withLength: CGFloat(DEFAULT_W))
+//        statusItem?.view = mStatusBackgroundView;
 
     }
     
@@ -113,5 +134,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
 	
+    @IBAction func openHaikuGirl(_ sender: Any) {
+        if let localHref = URL(string: "https://www.instagram.com/haiku_girl/") {
+            NSWorkspace.shared.open(localHref)
+        }
+    }
 }
 
