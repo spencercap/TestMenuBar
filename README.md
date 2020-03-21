@@ -1,5 +1,9 @@
-Sample code for the tutorial:
+~ haiku chair ~
 
-macOS Menu Bar App
+a curated poem experience
 
+
+---
+
+learned from:
 https://medium.com/@hoishing/menu-bar-apps-f2d270150660
